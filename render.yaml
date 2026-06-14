@@ -3,7 +3,7 @@ services:
     name: speakbetter
     runtime: node
     plan: free
-    buildCommand: ""
+    buildCommand: npm run build
     startCommand: npm start
     healthCheckPath: /
     envVars:
